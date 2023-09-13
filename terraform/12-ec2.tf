@@ -46,8 +46,8 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "my_app" {
   ami                    = data.aws_ami.ubuntu.id
   instance_type          = "t3.micro"
-  key_name               = "serverkeynew"
-  subnet_id              = aws_subnet.public_us_east_1a.id
+  key_name               = "devdemo"
+  subnet_id              = aws_subnet.public_us_east_2a.id
   vpc_security_group_ids = [aws_security_group.my_app.id]
 
   user_data = <<EOF
