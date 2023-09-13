@@ -15,5 +15,7 @@ data:
       url: https://aps-workspaces.us-east-1.amazonaws.com/workspaces/ws-6d2bea9b-8d1a-47bc-b089-6579ea2bfb18
       jsonData:
         sigV4Auth: true
-        sigV4Region: us-east-1
+        sigV4Region: us-east-2
         sigV4AuthType: default
+
+
