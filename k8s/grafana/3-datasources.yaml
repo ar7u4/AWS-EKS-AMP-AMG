@@ -12,7 +12,7 @@ data:
       isDefault: true
       name: Managed Prometheus
       type: prometheus
-      url: https://aps-workspaces.us-east-2.amazonaws.com/workspaces/ws-29ae5389-ee18-4400-9731-486083f59e14
+      url: https://aps-workspaces.us-east-2.amazonaws.com/workspaces/ws-7a73bc09-e646-41ef-a161-4898a0963f9a
       jsonData:
         sigV4Auth: true
         sigV4Region: us-east-2
